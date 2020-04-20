@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
+<script>
+	$(function(){
+		$.ajax({
+			url:"[[@{/getStu}]]",
+			dataType:"json",
+			success:function(data){
+				alert(data);
+			}
+		});
+	});
+</script>
+</head>
+<body>
+	
+</body>
+</html>
