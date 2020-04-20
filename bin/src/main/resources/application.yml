@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql:///sm65?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql:///sm65?characterEncoding=utf8
+    username: root
+    password: 123456
+ 
+server:
+  servlet:
+    context-path: /myweb

@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class Springboot03MybatisApplication {
 
 	public static void main(String[] args) {
+		System.out.println("zs ----aaa");
 		SpringApplication.run(Springboot03MybatisApplication.class, args);
 	}
 
