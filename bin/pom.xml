@@ -38,7 +38,7 @@
 		<!-- 不设置时区需要不使用新版本 -->
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.13</version>
+			<version>8.0.28</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
